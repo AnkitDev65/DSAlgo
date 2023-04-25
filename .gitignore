@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+DsAlgo/.vs
+/DsAlgo/ConsoleApp1/bin
+/DsAlgo/ConsoleApp1/bin/*
+/DsAlgo/ConsoleApp1/obj
+/DsAlgo/ConsoleApp1/obj/*
+/DsAlgo/DsAlgo/bin
+/DsAlgo/DsAlgo/bin/*
+/DsAlgo/DsAlgo/obj
+/DsAlgo/DsAlgo/obj/*

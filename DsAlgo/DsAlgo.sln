@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DsAlgo", "DsAlgo\DsAlgo.csproj", "{A441F9B5-EAC3-4D25-AF4B-ADA467BDC5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{CAA24FF8-702C-407B-AA5A-874B81136F9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A441F9B5-EAC3-4D25-AF4B-ADA467BDC5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A441F9B5-EAC3-4D25-AF4B-ADA467BDC5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A441F9B5-EAC3-4D25-AF4B-ADA467BDC5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A441F9B5-EAC3-4D25-AF4B-ADA467BDC5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA24FF8-702C-407B-AA5A-874B81136F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA24FF8-702C-407B-AA5A-874B81136F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA24FF8-702C-407B-AA5A-874B81136F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA24FF8-702C-407B-AA5A-874B81136F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DC4502D-2057-4C9A-8C46-F0D70FBD45EA}
+	EndGlobalSection
+EndGlobal
