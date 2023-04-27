@@ -12,6 +12,18 @@ using DsAlgo.TreeTraversal;
 *     }
 * }
 */
+//Two approaches.
+public class Solution_PathSum
+{
+    public bool HasPathSum(TreeNode root, int targetSum)
+    {
+        if (root == null) return false;
+        if (targetSum == root.val && root.left == null && root.right == null) return true;
+        targetSum = targetSum - root.val;
+        return HasPathSum(root.left, targetSum) || HasPathSum(root.right, targetSum);
+    }
+}
+
 public class Solution1 {
     public bool HasPathSum(TreeNode root, int targetSum) {
         if(root == null) return false;

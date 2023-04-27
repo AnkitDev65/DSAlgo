@@ -1,3 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
-Console.WriteLine("Hello, World!");
+namespace ConsoleApp1
+{ 
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("hi");
+        }
+        
+    }
+}

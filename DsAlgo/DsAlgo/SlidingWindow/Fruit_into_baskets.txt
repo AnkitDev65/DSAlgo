@@ -1,0 +1,12 @@
+https://leetcode.com/problems/fruit-into-baskets/description/
+
+Given the integer array fruits, return the maximum number of fruits you can pick in two baskets. 
+Note that a basket can contain only one type of food. 
+
+Algo:
+1. have two pointers left, right assigned to 0; and a variable max count assigned to 0
+1. Collect fruites while type is 2 or less and increase right counter. update the max_count
+3. Got third type then 
+	Empty the baskets. 
+	insert prev fruits to the basket and insert the new fruit. calculate/update max_count
+4. repeat till right is not equal to end.
